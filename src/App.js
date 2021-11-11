@@ -1,9 +1,9 @@
 import React from "react"
 
-import FrontPage from "./Components/Pages/Start/Start"
+// import Start from "./Components/Pages/Start/Start"
 import Skills from "./Components/Pages/Skills"
 import Projects from "./Components/Pages/Projects/Projects"
-import Contact from "../src/Components/Pages/Contact/Contact"
+// import Contact from "../src/Components/Pages/Contact/Contact"
 
 import { useState } from "react"
 
@@ -16,10 +16,10 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
       <div className="sections">
-        <FrontPage />
+        {/* <Start /> */}
         <Skills />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </div>
   );
