@@ -1,9 +1,9 @@
 import React from "react"
 
-import FrontPage from "./FrontPage"
-import Skills from "./Skills"
-import Projects from "./Projects"
-import Contact from "./Contact"
+import FrontPage from "./Components/Pages/Start/Start"
+import Skills from "./Components/Pages/Skills"
+import Projects from "./Components/Pages/Projects/Projects"
+import Contact from "../src/Components/Pages/Contact/Contact"
 
 import { useState } from "react"
 
