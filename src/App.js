@@ -11,7 +11,6 @@ import Navbar from "./Components/Containers/Navbar/Navbar";
 
 function App() {
   return (
-    <>
     <div className="App">
       <Logo />
       <Navbar />
@@ -25,7 +24,6 @@ function App() {
         <Contact />
       </div>
     </div>
-    </>
   );
 }
 
