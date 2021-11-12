@@ -8,8 +8,10 @@ import Contact from "./Components/Pages/Contact/Contact";
 import Logo from "./Components/Containers/Logo/Logo";
 import Navbar from "./Components/Containers/Navbar/Navbar";
 
+
 function App() {
   return (
+    <>
     <div className="App">
       <Logo />
       <Navbar />
@@ -23,6 +25,7 @@ function App() {
         <Contact />
       </div>
     </div>
+    </>
   );
 }
 
