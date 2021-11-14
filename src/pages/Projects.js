@@ -1,20 +1,11 @@
-export default function Projects() {
-  return (
-    <div className="projects">
-      <div className="projects__title">
-        <h1>Accessible from everywhere</h1>
-        <h2>Your desktop, tablet & smartphone</h2>
-      </div>
-      
-      <div className="projects__container">
-        <div className="projects__item">
-          <div className="projects__item__title">
-            <h2></h2>
-              <a href="#" />
-          </div>
-        </div>
-      </div>
+import React from 'react'
 
-    </div>
-  );
+function Projects() {
+    return (
+        <div>
+            <h1>Sign Up and get started</h1>
+        </div>
+    )
 }
+
+export default Projects;
