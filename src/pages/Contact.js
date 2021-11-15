@@ -10,7 +10,7 @@ function Contact() {
                 height: '100vh'
             }}
         >
-           <h1>Contact Us</h1> 
+           <h1>Contact Us Contact</h1> 
         </div>
     );
 };

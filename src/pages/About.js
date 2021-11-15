@@ -10,7 +10,7 @@ const About = () => {
                 height: '100vh'
             }}
         >
-            <h1>Full speed</h1>
+            <h1>Full speed test! About</h1>
         </div>
     );
 };
