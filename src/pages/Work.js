@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Projects() {
+function Work() {
     return (
         <div>
             <h1>Sign Up and get started</h1>
@@ -8,4 +8,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default Work;

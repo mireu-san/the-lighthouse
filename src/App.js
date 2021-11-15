@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
+import { Skills, Work, About, Contact } from "./pages";
 import './App.css';
 // import Navbar from "./components/Navbar";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -10,6 +11,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
     </div>
     // <Router>
     //   <Navbar />
