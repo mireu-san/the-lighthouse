@@ -15,10 +15,10 @@ function App() {
       <div className="App">
         <Navbar />
         <div>
-          <Link to="/skills">Skills</Link>
-          <Link to="/work">Work</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/skills"></Link>
+          <Link to="/work"></Link>
+          <Link to="/about"></Link>
+          <Link to="/contact"></Link>
         </div>
         <Routes>
           <Route path="skills" element={<Skills />} />
