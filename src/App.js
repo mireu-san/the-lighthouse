@@ -14,20 +14,13 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div>
+        <div className="App__container">
           <Link to="/"></Link>
           <Link to="/skills"></Link>
           <Link to="/work"></Link>
           <Link to="/about"></Link>
           <Link to="/contact"></Link>
         </div>
-
-      {/* consider refactoring later like this:
-      <Menu>
-   <MenuItem component={Link} to={'/first'}>Team 1</MenuItem>
-   <MenuItem component={Link} to={'/second'}>Team 2</MenuItem>
-</Menu>
-https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router */}
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -38,7 +31,16 @@ https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-lin
         </Routes>
       </div>
     </Router>
+
+    
   );
 }
 
 export default App;
+
+      {/* consider refactoring later like this:
+      <Menu>
+   <MenuItem component={Link} to={'/first'}>Team 1</MenuItem>
+   <MenuItem component={Link} to={'/second'}>Team 2</MenuItem>
+</Menu>
+https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router */}

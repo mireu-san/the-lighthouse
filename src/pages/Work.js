@@ -1,7 +1,9 @@
 import React from 'react'
+import { StyledIndex } from '../styles/index.styled'
 
 function Work() {
     return (
+        <StyledIndex>
         <div
             style={{
                 display: 'flex',
@@ -78,6 +80,7 @@ function Work() {
                 </section>
 
         </div>
+        </StyledIndex>
     )
 }
 
