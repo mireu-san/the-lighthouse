@@ -7,6 +7,12 @@ export const StyledIndex = styled.h1`
     background-color: #272935;
 `;
 
+export const profilePhoto = styled.img`
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+`;
+
 // const home__container = styled.div`
 //     display: flex;
 //     flex-direction: column;
