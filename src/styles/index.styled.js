@@ -7,10 +7,10 @@ export const StyledIndex = styled.h1`
     background-color: #272935;
 `;
 
-export const profilePhoto = styled.img`
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
+export const HomePicture = styled.img`
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
 `;
 
 // const home__container = styled.div`

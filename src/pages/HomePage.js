@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { StyledIndex, profilePhoto } from '../styles/index.styled'
+import { StyledIndex, HomePicture } from '../styles/index.styled'
 import homeImage from '../images/home.jpg'
-
+import profilePhoto from '../images/profile.jpg'
 
 import Contact from './Contact'
 import About from './About'
@@ -15,7 +15,7 @@ const HomePage = () => {
     return (
     <StyledIndex>
         <div className="home__profile">
-            <img src={profilePhoto} alt="profile" />
+            <HomePicture img src={profilePhoto} alt="profile" />
             <h2>Jongwan Kim</h2>
             <h3>Frontend web developer enthusiast</h3>
             <i class="fas fa-envelope fa-2x"></i>
