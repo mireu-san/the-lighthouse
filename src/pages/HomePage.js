@@ -57,6 +57,10 @@ const HomePage = () => {
                                     <li>BA Ecoonmics, Queensland University of Technology</li>
                                     <p>Graduated July, 2017</p>
                             </div>
+                            <div className="home__quote">
+                                <h3>Note</h3>
+                                <li>어떤 사건의 이야기만 안다면, 그 어떤 무형의 것도 시각적으로 표현해 낼 자신이 있습니다.</li>
+                            </div>
                         </HomeDescription>
                     </div>
                 </div>
