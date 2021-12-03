@@ -1,9 +1,17 @@
 import React from 'react'
-import { StyledIndex } from '../styles/index.styled'
+import styled from "styled-components";
+
+export const SkillsStyle = styled.h1`
+    font-size: 1.5em;
+    text-align: center;
+    color: palevioletred;
+    background-color: #23252F;
+`;
+
 
 function Skills() {
     return (
-        <StyledIndex>
+        <SkillsStyle>
         <div
             style={{
                 display: 'flex',
@@ -26,7 +34,7 @@ function Skills() {
             <i class="fab fa-js"></i>
             <p>JavaScript</p>
         </div>
-        </StyledIndex>
+        </SkillsStyle>
     );
 };
 
