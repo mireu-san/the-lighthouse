@@ -1,6 +1,13 @@
 import React from 'react'
 import styled from "styled-components";
 import '../styles/Skills.css';
+import '../images/skills/';
+
+// temporary start
+
+
+// temporary end
+
 
 export const SkillsStyle = styled.h1`
     font-size: 1.5em;
@@ -12,51 +19,55 @@ export const SkillsStyle = styled.h1`
 
 function Skills() {
     return (
-        // <SkillsStyle>
         <section class="skills" id="skills">
-        {/* Move this part to CSS later */}
-            <h1 id="title">Skills</h1>
-            <div
-                style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    height: '100vh'
-                }}
-                >
-            {/* end of move this part to css */}
-                <div className="skills__wrapper">
-                    <div className="skills__gridAlpha">
-                            <div className="skills__one">
-                                <i class="fab fa-html5"></i>
-                                <h3>HTML5</h3>
-                            </div>
-                            <div className="skills__two">
-                                <i class="fab fa-css3-alt"></i>
-                                <h3>CSS3</h3>
-                            </div>
-                            <div className="skills__three"></div>
-                                <i class="fab fa-react"></i>
-                                <h3>React</h3>
-                            </div>
-                        <div class="skill__gridBeta">
-                            <div className="skills__four">
-                                <i class="fab fa-python"></i>
-                                <h3>Python</h3>
-                            </div>
-                            <div className="skills__five">
-                                <i class="fab fa-node"></i>
-                                <h3>Node.js</h3>
-                            </div>
-                            <div className="skills__six">
-                                <i class="fab fa-js"></i>
-                                <h3>JavaScript</h3>
-                            </div>
-                        </div>
-                </div>
+        <h2 class="skills__header">Preferred Skill Sets</h2>
+
+{/* refactoring: consider inserting a new middle function here - to replace it with a fontawesome api */}
+
+        <div class="skills__wrapper">
+            <div class="skill__alphaColumn">
+                <img
+                    src="../images/skills/js.png"
+                    alt="javascript/ECMA6"
+                    loading="lazy"
+                    class="box skill__box"
+                />
+                <img
+                src="../images/skills/reactjs.png"
+                alt="reactjs"
+                loading="lazy"
+                class="box skill__box"
+                />
+                <img
+                src="../images/skills/typescript.png"
+                alt="typescript"
+                loading="lazy"
+                class="box skill__box"
+            />
             </div>
-        </section>
-        // </SkillsStyle>
+
+            <div class="skill__betaColumn">
+                <img
+                src="../images/skills/nodejs.png"
+                alt="nodejs"
+                loading="lazy"
+                class="box skill__box"
+                />
+                <img
+                src="../images/skills/html5.png"
+                alt="HTML"
+                loading="lazy"
+                class="box skill__box"
+                />
+                <img
+                src="../images/skills/css.png"
+                alt="CSS"
+                loading="lazy"
+                class="box skill__box"
+            />
+            </div>
+        </div>
+    </section>
     );
 };
 
