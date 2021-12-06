@@ -18,8 +18,26 @@
 }
 
 #name__subtitile {
-    color: #272935;
+    color: silver;
 }
+
+p {
+    margin-top: 8px;
+}
+
+ul {
+    color: silver;
+}
+
+.home__interest, .home__hobby, .home__award, .home__quote {
+    gap: 2rem;
+    align-content: center;
+} 
+
+/* .home__biography__bottom {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} */
 
 /* .home__profile__containerRight {
 

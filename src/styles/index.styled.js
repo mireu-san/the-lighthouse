@@ -23,7 +23,10 @@ export const HomeDescription = styled.p`
     font-size: 1rem; /* or 1.5 rem if description is short */
     text-align: left;
     color: white;
+    margin-top: 12px;
 `;
+
+
 
 // export const HomeFontAwesome = styled.i`
 //     flex-direction: row;
