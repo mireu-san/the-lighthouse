@@ -3,12 +3,14 @@ import styled from "styled-components";
 import '../styles/Skills.css';
 import '../images/skills/';
 
-// temporary start
-import JS from '../images/skills/js.png';
+// temporary only - will be replaced with index later
+import html5 from '../images/skills/html5.png';
+import css from '../images/skills/css.png';
+import nodejs from '../images/skills/nodejs.png';
 import react from '../images/skills/reactjs.png';
-import node from '../images/skills/nodejs.png';
-// temporary end
-
+import typescript from '../images/skills/typescript.png';
+import javascript from '../images/skills/js.png';
+// end of temporary
 
 export const SkillsStyle = styled.h1`
     font-size: 1.5em;
@@ -21,54 +23,51 @@ export const SkillsStyle = styled.h1`
 function Skills() {
     return (
         <section class="skills" id="skills">
-        <h2 class="skills__header">Preferred Skill Sets</h2>
+            <h2 class="skills__header">Skills</h2>
+                <div class="skills__wrapper">
+                    <div class="skill__alphaColumn">
+                        <img 
+                            src={html5} 
+                            alt="html5"
+                            loading="lazy"
+                            class="box skill_box" 
+                        />
+                        <img 
+                            src={css} 
+                            alt="css"
+                            loading="lazy"
+                            class="box skill_box" 
+                        />
+                        <img 
+                            src={nodejs} 
+                            alt="nodejs"
+                            loading="lazy"
+                            class="box skill_box" 
+                        />
+                    </div>
 
-{/* refactoring: consider inserting a new middle function here - to replace it with a fontawesome api */}
-
-        <div class="skills__wrapper">
-            <div class="skill__alphaColumn">
-                <img
-                    src={require("../images/skills/js.png")}
-                    alt="javascript"
-                    loading="lazy"
-                    class="box skill__box"
-                />
-                <img
-                    src="../images/skills/reactjs.png"
-                    alt="reactjs"
-                    loading="lazy"
-                    class="box skill__box"
-                />
-                <img
-                    src="../images/skills/typescript.png"
-                    alt="typescript"
-                    loading="lazy"
-                    class="box skill__box"
-                />
-            </div>
-
-            <div class="skill__betaColumn">
-                <img
-                    src="../images/skills/nodejs.png"
-                    alt="nodejs"
-                    loading="lazy"
-                    class="box skill__box"
-                />
-                <img
-                    src="../images/skills/html5.png"
-                    alt="HTML"
-                    loading="lazy"
-                    class="box skill__box"
-                />
-                <img
-                    src="../images/skills/css.png"
-                    alt="CSS"
-                    loading="lazy"
-                    class="box skill__box"
-                />
-            </div>
-        </div>
-    </section>
+                    <div class="skill__betaColumn">
+                        <img 
+                            src={react} 
+                            alt="react"
+                            loading="lazy"
+                            class="box skill_box" 
+                        />
+                        <img 
+                            src={typescript} 
+                            alt="htmtypescriptl5"
+                            loading="lazy"
+                            class="box skill_box" 
+                        />
+                        <img 
+                            src={javascript} 
+                            alt="javascript"
+                            loading="lazy"
+                            class="box skill_box" 
+                        />
+                    </div>
+                </div>
+        </section>
     );
 };
 
