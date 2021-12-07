@@ -26,14 +26,14 @@ function Skills() {
             <h2 class="skills__header">Skills</h2>
                 <div class="skills__wrapper">
                     <div class="skill__alphaColumn">
-                        <i class="fab fa-html5 fa-5x" alt="html5" loading="lazy" />
-                        <i class="fab fa-css3-alt fa-5x" alt="css" loading="lazy" />
-                        <i class="fab fa-js-square fa-5x" alt="javascript" loading="lazy" />
+                            <i class="fab fa-html5 fa-5x box" alt="html5" loading="lazy" />
+                            <i class="fab fa-css3-alt fa-5x box" alt="css" loading="lazy" />
+                            <i class="fab fa-js-square fa-5x box" alt="javascript" loading="lazy" />
                     </div>
                     <div class="skill__betaColumn">
-                        <i class="fab fa-node-js fa-5x" alt="nodejs" loading="lazy" />
-                        <i class="fab fa-react fa-5x" alt="react" loading="lazy" />
-                        <i class="fab fa-microsoft fa-5x" alt="typescript" loading="lazy" />
+                        <i class="fab fa-node-js fa-5x box" alt="nodejs" loading="lazy" />
+                        <i class="fab fa-react fa-5x box" alt="react" loading="lazy" />
+                        <i class="fab fa-microsoft fa-5x box" alt="typescript" loading="lazy" />
                     </div>
                 </div>
         </section>
