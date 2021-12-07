@@ -24,25 +24,24 @@
   padding: 1.25rem;
 }
 
+/* horizontal layout START */
 .skill__alphaColumn{
-  padding: 1.25rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
 }
 .skill__betaColumn{
-  padding: 0.50rem;
-}
+  display: grid;
+  justify-content: center;
+  align-content: center;
 
-.box {
-  width: 11.875rem;
-  height: 11.25rem;
+  gap: 4px;
+  grid-auto-flow: column;
 }
-
-.skill__box {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 6px 20px;
-  padding: 20px;
-  margin: 10px;
-}
+/* horizontal layout END */
 
 .box {
   background-color: #fff;
@@ -55,5 +54,11 @@
   height: 11.25rem;
 }
 
+/* each white box START*/
+.skill__icon {
+  margin: 2px;
+}
+
+/* each white box  END*/
 
 /* END OF skills  */

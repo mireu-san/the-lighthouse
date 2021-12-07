@@ -3,14 +3,7 @@ import styled from "styled-components";
 import '../styles/Skills.css';
 import '../images/skills/';
 
-// temporary only - will be replaced with index later
-import html5 from '../images/skills/html5.png';
-import css from '../images/skills/css.png';
-import nodejs from '../images/skills/nodejs.png';
-import react from '../images/skills/reactjs.png';
-import typescript from '../images/skills/typescript.png';
-import javascript from '../images/skills/js.png';
-// end of temporary
+
 
 export const SkillsStyle = styled.h1`
     font-size: 1.5em;
@@ -22,18 +15,45 @@ export const SkillsStyle = styled.h1`
 
 function Skills() {
     return (
-        <section class="skills" id="skills">
-            <h2 class="skills__header">Skills</h2>
-                <div class="skills__wrapper">
-                    <div class="skill__alphaColumn">
-                            <i class="fab fa-html5 fa-5x box" alt="html5" loading="lazy" />
-                            <i class="fab fa-css3-alt fa-5x box" alt="css" loading="lazy" />
-                            <i class="fab fa-js-square fa-5x box" alt="javascript" loading="lazy" />
+        <section className="skills" id="skills">
+            <h2 className="skills__header">Skills</h2>
+                <div className="skills__wrapper">
+                    <div className="skill__alphaColumn">
+                        
+                        <div className="skill__icon">
+                            <i className="fab fa-html5 fa-5x box" alt="html5" loading="lazy" p="test" />
+                            <p>HTML5</p>
+                        </div>
+                        
+                        <div className="skill__icon">
+                            <i className="fab fa-css3-alt fa-5x box" alt="css" loading="lazy" />
+                            <p>CSS</p>
+                        </div>
+
+                        <div className="skill__icon">
+                            <i className="fab fa-js-square fa-5x box" alt="javascript" loading="lazy" />
+                            <p>Javascript/ECMA6</p>
+                        </div>
+
                     </div>
-                    <div class="skill__betaColumn">
-                        <i class="fab fa-node-js fa-5x box" alt="nodejs" loading="lazy" />
-                        <i class="fab fa-react fa-5x box" alt="react" loading="lazy" />
-                        <i class="fab fa-microsoft fa-5x box" alt="typescript" loading="lazy" />
+
+                    <div className="skill__betaColumn">
+
+                        <div className="skill__icon">
+                            <i className="fab fa-node-js fa-5x box" alt="nodejs" loading="lazy" />
+                            <p>Node.js</p>
+                        </div>
+
+                        <div className="skill__icon">    
+                            <i className="fab fa-react fa-5x box" alt="react" loading="lazy" />
+                            <p>React.js</p>
+                        </div>
+                        
+                        <div className="skill__icon">
+                            <i className="fab fa-microsoft fa-5x box" alt="typescript" loading="lazy" />
+                            <p>TypeScript</p>
+                        </div>
+
                     </div>
                 </div>
         </section>
