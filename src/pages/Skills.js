@@ -4,8 +4,9 @@ import '../styles/Skills.css';
 import '../images/skills/';
 
 // temporary start
-
-
+import JS from '../images/skills/js.png';
+import react from '../images/skills/reactjs.png';
+import node from '../images/skills/nodejs.png';
 // temporary end
 
 
@@ -27,44 +28,44 @@ function Skills() {
         <div class="skills__wrapper">
             <div class="skill__alphaColumn">
                 <img
-                    src="../images/skills/js.png"
-                    alt="javascript/ECMA6"
+                    src={require("../images/skills/js.png")}
+                    alt="javascript"
                     loading="lazy"
                     class="box skill__box"
                 />
                 <img
-                src="../images/skills/reactjs.png"
-                alt="reactjs"
-                loading="lazy"
-                class="box skill__box"
+                    src="../images/skills/reactjs.png"
+                    alt="reactjs"
+                    loading="lazy"
+                    class="box skill__box"
                 />
                 <img
-                src="../images/skills/typescript.png"
-                alt="typescript"
-                loading="lazy"
-                class="box skill__box"
-            />
+                    src="../images/skills/typescript.png"
+                    alt="typescript"
+                    loading="lazy"
+                    class="box skill__box"
+                />
             </div>
 
             <div class="skill__betaColumn">
                 <img
-                src="../images/skills/nodejs.png"
-                alt="nodejs"
-                loading="lazy"
-                class="box skill__box"
+                    src="../images/skills/nodejs.png"
+                    alt="nodejs"
+                    loading="lazy"
+                    class="box skill__box"
                 />
                 <img
-                src="../images/skills/html5.png"
-                alt="HTML"
-                loading="lazy"
-                class="box skill__box"
+                    src="../images/skills/html5.png"
+                    alt="HTML"
+                    loading="lazy"
+                    class="box skill__box"
                 />
                 <img
-                src="../images/skills/css.png"
-                alt="CSS"
-                loading="lazy"
-                class="box skill__box"
-            />
+                    src="../images/skills/css.png"
+                    alt="CSS"
+                    loading="lazy"
+                    class="box skill__box"
+                />
             </div>
         </div>
     </section>
