@@ -16,7 +16,7 @@ export const SkillsStyle = styled.h1`
     font-size: 1.5em;
     text-align: center;
     color: palevioletred;
-    background-color: #23252F;
+    background-color: #272935;
 `;
 
 
@@ -26,45 +26,14 @@ function Skills() {
             <h2 class="skills__header">Skills</h2>
                 <div class="skills__wrapper">
                     <div class="skill__alphaColumn">
-                        <img 
-                            src={html5} 
-                            alt="html5"
-                            loading="lazy"
-                            class="box skill_box" 
-                        />
-                        <img 
-                            src={css} 
-                            alt="css"
-                            loading="lazy"
-                            class="box skill_box" 
-                        />
-                        <img 
-                            src={nodejs} 
-                            alt="nodejs"
-                            loading="lazy"
-                            class="box skill_box" 
-                        />
+                        <i class="fab fa-html5 fa-5x" alt="html5" loading="lazy" />
+                        <i class="fab fa-css3-alt fa-5x" alt="css" loading="lazy" />
+                        <i class="fab fa-js-square fa-5x" alt="javascript" loading="lazy" />
                     </div>
-
                     <div class="skill__betaColumn">
-                        <img 
-                            src={react} 
-                            alt="react"
-                            loading="lazy"
-                            class="box skill_box" 
-                        />
-                        <img 
-                            src={typescript} 
-                            alt="htmtypescriptl5"
-                            loading="lazy"
-                            class="box skill_box" 
-                        />
-                        <img 
-                            src={javascript} 
-                            alt="javascript"
-                            loading="lazy"
-                            class="box skill_box" 
-                        />
+                        <i class="fab fa-node-js fa-5x" alt="nodejs" loading="lazy" />
+                        <i class="fab fa-react fa-5x" alt="react" loading="lazy" />
+                        <i class="fab fa-microsoft fa-5x" alt="typescript" loading="lazy" />
                     </div>
                 </div>
         </section>
