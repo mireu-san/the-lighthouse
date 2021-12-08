@@ -21,5 +21,5 @@ Solved(Partially) : designate a specific font color on each page.
 
 4. use -> do not use emailjs
 This is due to security reason. At moment, I am not sure how to encrypt my id section when the page communicate with its server side.
-If I do not fully understand, then use this once I do so.
+If I do not fully understand, then use this once I do so. Which is my philosophy.
 https://www.emailjs.com/docs/examples/reactjs/

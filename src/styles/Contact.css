@@ -1,0 +1,71 @@
+/* footer - contact */
+.contact {
+    margin-top: 2rem;
+    padding: 200px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact h1 h2 {
+    margin-bottom: var(--bottom-margin-2);
+  }
+  
+  #contact__container {
+    /* display: flex; */
+    padding: 1rem;
+    display: inline-block -moz-grid-line;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 750px;
+    overflow-y: auto;
+  }
+  
+  .button__contact {
+    width: 180px;
+    height: 50px;
+    margin: 15px;
+    display: inline-block;
+  }
+  
+   #contact__btn__one {
+    background: #000000;
+    background: linear-gradient(to right, #fff6a2, #00fff0);
+    border: none;
+    border-radius: 8px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    text-decoration: none;
+  } 
+  
+  #contact__btn__two {
+    background: #000000;
+    background: linear-gradient(to right, #8a8879, #a100ff, #f9d00f);
+    border: none;
+    border-radius: 8px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  #contact__btn__three {
+    background: #000000;
+    background: linear-gradient(to right, #fc8a15, #f9d00f);
+    border: none;
+    border-radius: 8px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    text-decoration: none;
+  } 
+  
+  /* END OF CONTACT */
