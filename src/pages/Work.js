@@ -30,7 +30,11 @@ function Work() {
                     <div className="work__alphaColumn">
                         <div className="work__container">
                             <div className="work__box">
-                                <img src={covid} alt="covid tracker" /> 
+                                <img 
+                                    src={covid} 
+                                    className="workImage"
+                                    alt="covid tracker" 
+                                /> 
                                     <a href="https://wonderful-goldstine-6adfe3.netlify.app/">
                                         <p className="textFont">Covid-19 tracker with opensource database</p>
                                     </a>
@@ -38,7 +42,11 @@ function Work() {
                         </div>
                         <div className="header__wrapper__whiteBox">
                             <div className="work__box">
-                                <img src={reactproject} alt="react font animation portfolio" />
+                                <img 
+                                    src={reactproject} 
+                                    className="workImage"
+                                    alt="react font animation portfolio" 
+                                />
                                     <a href="https://quizzical-goldberg-fd83c4.netlify.app/">
                                         <p className="textFont">Previous reactjs portfolio</p>
                                     </a>
@@ -46,7 +54,11 @@ function Work() {
                         </div>
                         <div className="header__wrapper__whiteBox">
                             <div className="work__box">
-                                <img src={jsproject} alt="js html css portfolio" />
+                                <img 
+                                    src={jsproject} 
+                                    className="workImage"
+                                    alt="js html css portfolio" 
+                                />
                                     <a href="https://hardcore-chandrasekhar-2978e0.netlify.app/">
                                         <p className="textFont">Previous portfolio</p>
                                     </a>
@@ -57,7 +69,11 @@ function Work() {
                     <div className="work__betaColumn">
                         <div className="header__wrapper__whiteBox">
                             <div className="work__box">
-                                <img src={movie} alt="react movie with openAPI database" />
+                                <img 
+                                    src={movie} 
+                                    className="workImage"
+                                    alt="react movie with openAPI database" 
+                                />
                                     <a href="https://mireu-san.github.io/moviesite">
                                         <p className="textFont">Opensource Moviesite</p>
                                     </a>
@@ -65,7 +81,11 @@ function Work() {
                         </div>
                         <div className="header__wrapper__whiteBox">
                             <div className="work__box">
-                                <img src={kakao} alt="kakao web app - limited by html/css" />
+                                <img 
+                                    src={kakao} 
+                                    className="workImage"
+                                    alt="kakao web app - limited by html/css" 
+                                />
                                     <a href="https://mireu-san.github.io/Kokoa-Clone-2020/">
                                         <p className="textFont">Kakaotalk Web App</p>
                                     </a>

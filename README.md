@@ -18,3 +18,8 @@ display: grid, then give the following:
 3. global font colour issue
 Problem: looks like I set up #DB7093 colour somewhere else. CAN'T FIND IT.
 Solved(Partially) : designate a specific font color on each page.  
+
+4. use -> do not use emailjs
+This is due to security reason. At moment, I am not sure how to encrypt my id section when the page communicate with its server side.
+If I do not fully understand, then use this once I do so.
+https://www.emailjs.com/docs/examples/reactjs/
