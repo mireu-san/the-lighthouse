@@ -1,0 +1,67 @@
+/* Work css */
+.work{
+    /* max-width: 68.75rem; */
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 200px 0;
+  }
+  
+  .work__title {
+    margin-top: 1rem;
+  }
+  
+  .header__wrapper img {
+    padding: 1.25rem;
+  }
+  
+  /* horizontal layout START */
+  .work__alphaColumn{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  
+    gap: 4px;
+    grid-auto-flow: column;
+  }
+  .work__betaColumn{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  
+    gap: 4px;
+    grid-auto-flow: column;
+  }
+  /* horizontal layout END */
+  
+  /* absolute layout zone */
+  .work__box {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 6px 20px;
+    padding: 20px;
+    margin: 10px;
+  
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+  
+img {
+    margin-left: -17%;
+    margin-top: -22%;
+}
+
+.textFont {
+    font-size: 18px;
+    margin-top: -10%;
+}
+
+
+  /* each white box START*/
+  /* .work__image {
+    margin: 20px;
+  } */
+  
+  /* each white box  END*/
+  
+  /* END OF work  */
