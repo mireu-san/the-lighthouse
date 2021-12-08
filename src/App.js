@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import { Home, Skills, Work, About, Contact } from "./pages";
+import { Home, Skills, Work, Contact } from "./pages";
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -18,7 +18,6 @@ function App() {
           <Link to="/"></Link>
           <Link to="/skills"></Link>
           <Link to="/work"></Link>
-          <Link to="/about"></Link>
           <Link to="/contact"></Link>
         </div>
 
@@ -26,7 +25,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="skills" element={<Skills />} />
           <Route path="work" element={<Work />} />
-          <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
@@ -37,10 +35,3 @@ function App() {
 }
 
 export default App;
-
-      {/* consider refactoring later like this:
-      <Menu>
-   <MenuItem component={Link} to={'/first'}>Team 1</MenuItem>
-   <MenuItem component={Link} to={'/second'}>Team 2</MenuItem>
-</Menu>
-https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router */}

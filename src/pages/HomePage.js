@@ -4,7 +4,6 @@ import { StyledIndex, HomePicture, HomeTitle, HomeDescription,  } from '../style
 import profilePhoto from '../images/profile.jpg'
 
 import Contact from './Contact'
-import About from './About'
 import Skills from './Skills'
 import Work from './Work'
 
@@ -73,7 +72,6 @@ const HomePage = () => {
         </div>
 
         <Skills />
-        <About />
         <Work />
         <Contact />
     </StyledIndex>

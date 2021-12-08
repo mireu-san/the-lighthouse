@@ -1,6 +1,6 @@
 import Skills from './Skills';
 import Work from './Work';
-import About from './About';
+
 import Contact from './Contact';
 import HomePage from './HomePage';
 // import ReactDOM from 'react-dom';
@@ -18,4 +18,4 @@ function Home() {
 //     <HomePage />,
 // );
 
-export { Home, Skills, Work, About, Contact };
+export { Home, Skills, Work, Contact };
