@@ -4,6 +4,7 @@
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  background-color: #23252F;
 }
 
 .skills {
@@ -44,7 +45,7 @@
 /* horizontal layout END */
 
 .box {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 11px;
   box-shadow: 0 6px 20px;
   padding: 20px;
@@ -57,8 +58,12 @@
 /* each white box START*/
 .skill__icon {
   margin: 2px;
-}
 
+
+
+  
+}
 /* each white box  END*/
+
 
 /* END OF skills  */

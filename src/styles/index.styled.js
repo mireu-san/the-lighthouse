@@ -3,8 +3,11 @@ import styled from "styled-components";
 export const StyledIndex = styled.h1`
     font-size: 1.5em;
     text-align: center;
-    color: palevioletred;
+    color: white;
     background-color: #272935;
+
+
+
 `;
 
 export const HomePicture = styled.img`

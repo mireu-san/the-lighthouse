@@ -5,7 +5,16 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: #23252F;
   }
+
+.contact__wallpaper {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #23252F;
+}
   
   .contact h1 h2 {
     margin-bottom: var(--bottom-margin-2);
