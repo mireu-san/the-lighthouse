@@ -23,3 +23,9 @@ Solved(Partially) : designate a specific font color on each page.
 This is due to security reason. At moment, I am not sure how to encrypt my id section when the page communicate with its server side.
 If I do not fully understand, then use this once I do so. Which is my philosophy.
 https://www.emailjs.com/docs/examples/reactjs/
+
+5. Bloody white space on the right hand side never disappears ONCE I resize it to mobile one.
+https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend
+
+6. How to relocate automatically as size fits? (responsive, 'works' section) 
+- unsolved yet.
