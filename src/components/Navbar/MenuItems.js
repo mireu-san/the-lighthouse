@@ -3,17 +3,17 @@
 export const MenuItems = [
     {
         title: 'Skills',
-        url: 'skills',
+        url: '#skills',
         cName: 'nav__links'
     },
     {
         title: 'Projects',
-        url: 'work',
+        url: '#work',
         cName: 'nav__links'
     },
     {
         title: 'Contact',
-        url: 'contact',
+        url: '#contact',
         cName: 'nav__links'
     },
 ]
