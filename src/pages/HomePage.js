@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { StyledIndex, HomePicture, HomeTitle, HomeDescription,  } from '../styles/index.styled'
+import { StyledIndex, HomePicture, HomeTitle, HomeDescription, HomeTitleLeft, HomeDescriptionProLeft, HomeLogo } from '../styles/index.styled'
 import profilePhoto from '../images/profile.jpg'
 
 import Contact from './Contact'
@@ -16,14 +16,28 @@ const HomePage = () => {
     <StyledIndex>
         <div className="home__profile">
             <div className="home__profile__container">
+
                 <div className="home__profile__containerLeft">
-                    <HomePicture img src={profilePhoto} alt="profile" />
-                    <h2 id="name">Jongwan Kim</h2>
-                    <h3 id="name__subtitle">Frontend Web Developer Enthusiast</h3>
-                        <i class="fas fa-envelope fa-lg fa-fw"></i>
-                        <i class="fab fa-github fa-lg fa-fw"></i>
-                        <i class="fab fa-linkedin fa-lg fa-fw"></i>
-                        <i class="fas fa-id-card fa-lg fa-fw"></i>
+                    <section className="home__profile__containerLeft__section">
+                        <HomePicture img src={profilePhoto} alt="profile" />
+                        
+                            <div className="wrapper__secondLeft">
+                                <HomeTitleLeft>
+                                    <h2 id="name">Jongwan Kim</h2>
+                                </HomeTitleLeft>
+                                <HomeDescriptionProLeft>
+                                <h3 id="name__subtitle">Frontend Web Developer Enthusiast</h3>
+                                </HomeDescriptionProLeft>
+                                <HomeLogo>
+                                    <i class="fas fa-envelope fa-lg fa-fw"></i>
+                                    <i class="fab fa-github fa-lg fa-fw"></i>
+                                    <i class="fab fa-linkedin fa-lg fa-fw"></i>
+                                    <i class="fas fa-id-card fa-lg fa-fw"></i>
+                                </HomeLogo>
+
+                            </div>
+
+                    </section>
                 </div>
             
                 <div className="home__profile__containerRight">

@@ -5,15 +5,12 @@ export const StyledIndex = styled.h1`
     text-align: center;
     color: white;
     background-color: #272935;
-
-
-
 `;
 
 export const HomePicture = styled.img`
-    width: 100px;
-    height: 100px;
-    border-radius: 20%;
+    width: 50%;
+    height: 25%;
+    border-radius: 25%;
 `;
 
 export const HomeTitle = styled.h2`
@@ -21,6 +18,26 @@ export const HomeTitle = styled.h2`
     text-align: left;
     color: #95A3AB;
 `;
+
+export const HomeTitleLeft = styled.h2`
+    font-size: 1.5em;
+    text-align: center;
+    color: #95A3AB;
+
+    margin-top: 1rem;
+`;
+
+export const HomeDescriptionProLeft = styled.h3`
+    font-size: 1.5rem;
+    color: silver; 
+    
+`
+
+export const HomeLogo = styled.i`
+    font-size: 1.5em;
+    color: silver; 
+`
+
 
 export const HomeDescription = styled.p`
     font-size: 1rem; /* or 1.5 rem if description is short */

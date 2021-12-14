@@ -15,63 +15,67 @@ function Contact() {
             }}
         >
             <section class="contact" id="contact">
-                    <div className="contact__container">
+                    <h1 id="contact__title">Contact</h1> 
+                    
+                    <div className="contact__wrapper">
                         <div className="contact__gridAlpha">
-                            <h1>Contact</h1> 
-                            <h2>Phone</h2>
-                                <a href="tel:+8210-8215-8540">
+                            <div className="contact__container">
+                                <h2>Phone</h2>
+                                    <a href="tel:+8210-8215-8540">
+                                        <button 
+                                            class="button__contact" 
+                                            id="contact__btn__one"
+                                        >
+                                        📳:010-8215-8540
+                                        </button>
+                                    </a>
+                            </div>
+
+
+
+                        <div className="contact__container">
+                            <h2>Email</h2>
+                                <a href="mailto:starmireu@gmail.com">
                                     <button 
-                                        class="button__contact" 
-                                        id="contact__btn__one"
+                                    class="button__contact" 
+                                    id="contact__btn__two"
                                     >
-                                    📳:010-8215-8540
+                                        📧:starmireu@gmail.com
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+
+                <div className="contact__gridAlpha">
+                    <div className="contact__container">
+                        <h2>Blog</h2>
+                            <a href="https://silverlibrary.tistory.com/">
+                                <button 
+                                class="button__contact" 
+                                id="contact__btn__three"
+                                >
+                                <i class="fas fa-comment"></i>
+                                    :Blog
+                                </button>
+                            </a>
+                    </div>
+
+                    <div className="contact__container">
+                            <h2>Github</h2>
+                                <a href="https://github.com/mireu-san">
+                                    <button 
+                                    class="button__contact" 
+                                    id="contact__btn__three"
+                                    >
+                                    <i class="fas fa-comment"></i>
+                                        :Blog
                                     </button>
                                 </a>
                     </div>
-
-
-            <div className="contact__container">
-                <h2>Email</h2>
-                    <a href="mailto:starmireu@gmail.com">
-                        <button 
-                        class="button__contact" 
-                        id="contact__btn__two"
-                        >
-                            📧:starmireu@gmail.com
-                        </button>
-                    </a>
-            </div>
-                    </div>
-
-
-            <div className="contact__container">
-                <div className="contact__containerBeta">
-                    <h2>Blog</h2>
-                        <a href="https://silverlibrary.tistory.com/">
-                            <button 
-                            class="button__contact" 
-                            id="contact__btn__three"
-                            >
-                            <i class="fas fa-comment"></i>
-                                :Blog
-                            </button>
-                        </a>
                 </div>
-
-            <div className="contact__container">
-                    <h2>Github</h2>
-                        <a href="https://github.com/mireu-san">
-                            <button 
-                            class="button__contact" 
-                            id="contact__btn__three"
-                            >
-                            <i class="fas fa-comment"></i>
-                                :Blog
-                            </button>
-                        </a>
                 </div>
-            </div>
-            </section>    
+            </section>
         </div>
 
     );

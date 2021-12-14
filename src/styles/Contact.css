@@ -8,15 +8,33 @@
     background-color: #23252F;
   }
 
+/* .contact__wrapper {
+  padding-top: 3rem;
+} */
+
+#contact__title {
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
 .contact__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
-    min-width: 300px;
+    max-width: 500px;
+    min-width: 250px;
     margin: 0 auto;
+
+    /* glowing white shadow */
+    border-radius: 11px;
+    box-shadow: 0 6px 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 11.875rem;
+    height: 11.25rem;
+    /* end of glowing white shadow */
 
     /* border-radius: 11px;
     box-shadow: 0 6px 20px; */
@@ -56,7 +74,7 @@
   }
   
    #contact__btn__one {
-    /* background: #000000; */
+    /* background: #000000;
     /* background: linear-gradient(to right, #fff6a2, #00fff0); */
     border: none;
     border-radius: 8px;
@@ -96,19 +114,21 @@
   
   /* END OF CONTACT */
 
-  .contact__containerAlpha {
-
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
+  .contact__gridAlpha {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  
+    gap: 4px;
+    grid-auto-flow: column;
   }
 
 
-  .contact__containerBeta {
-
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
+  .contact__gridBeta {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  
+    gap: 4px;
+    grid-auto-flow: column;
   }
