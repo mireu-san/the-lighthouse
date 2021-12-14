@@ -8,6 +8,20 @@
     background-color: #23252F;
   }
 
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 0 auto;
+
+    /* border-radius: 11px;
+    box-shadow: 0 6px 20px; */
+  }
+
 .contact__wallpaper {
   display: flex;
   justify-self: center;
@@ -36,11 +50,14 @@
     height: 50px;
     margin: 15px;
     display: inline-block;
+
+    border-radius: 11px;
+    box-shadow: 0 6px 20px;
   }
   
    #contact__btn__one {
-    background: #000000;
-    background: linear-gradient(to right, #fff6a2, #00fff0);
+    /* background: #000000; */
+    /* background: linear-gradient(to right, #fff6a2, #00fff0); */
     border: none;
     border-radius: 8px;
     margin-top: 2rem;
@@ -52,8 +69,8 @@
   } 
   
   #contact__btn__two {
-    background: #000000;
-    background: linear-gradient(to right, #8a8879, #a100ff, #f9d00f);
+    /* background: #000000; */
+    /* background: linear-gradient(to right, #8a8879, #a100ff, #f9d00f); */
     border: none;
     border-radius: 8px;
     margin-top: 2rem;
@@ -65,8 +82,8 @@
   }
   
   #contact__btn__three {
-    background: #000000;
-    background: linear-gradient(to right, #fc8a15, #f9d00f);
+    /* background: #000000; */
+    /* background: linear-gradient(to right, #fc8a15, #f9d00f); */
     border: none;
     border-radius: 8px;
     margin-top: 2rem;
@@ -78,3 +95,20 @@
   } 
   
   /* END OF CONTACT */
+
+  .contact__containerAlpha {
+
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
+
+
+  .contact__containerBeta {
+
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
