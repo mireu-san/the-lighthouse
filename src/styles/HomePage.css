@@ -34,7 +34,13 @@ ul {
     align-content: center;
 }
 
+a {
+    color: silver;
+}
 
+.profile__iconArea {
+    padding-top: 1rem;
+}
 
 /* .home__biography__bottom {
     margin-top: 2rem;

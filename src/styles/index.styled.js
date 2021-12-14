@@ -8,7 +8,7 @@ export const StyledIndex = styled.h1`
 `;
 
 export const HomePicture = styled.img`
-    width: 50%;
+    width: 25%;
     height: 25%;
     border-radius: 25%;
 `;
@@ -35,7 +35,7 @@ export const HomeDescriptionProLeft = styled.h3`
 
 export const HomeLogo = styled.i`
     font-size: 1.5em;
-    color: silver; 
+    color: silver;
 `
 
 
@@ -45,8 +45,6 @@ export const HomeDescription = styled.p`
     color: white;
     margin-top: 12px;
 `;
-
-
 
 // export const HomeFontAwesome = styled.i`
 //     flex-direction: row;

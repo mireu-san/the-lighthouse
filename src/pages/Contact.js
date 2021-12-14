@@ -68,8 +68,8 @@ function Contact() {
                                     class="button__contact" 
                                     id="contact__btn__three"
                                     >
-                                    <i class="fas fa-comment"></i>
-                                        :Blog
+                                    <i class="fab fa-github"></i>
+                                        :Github
                                     </button>
                                 </a>
                     </div>

@@ -29,10 +29,20 @@ const HomePage = () => {
                                 <h3 id="name__subtitle">Frontend Web Developer Enthusiast</h3>
                                 </HomeDescriptionProLeft>
                                 <HomeLogo>
-                                    <i class="fas fa-envelope fa-lg fa-fw"></i>
-                                    <i class="fab fa-github fa-lg fa-fw"></i>
-                                    <i class="fab fa-linkedin fa-lg fa-fw"></i>
-                                    <i class="fas fa-id-card fa-lg fa-fw"></i>
+                                    <section className="profile__iconArea">
+                                        <a href="#">
+                                            <i class="fas fa-envelope fa-lg fa-fw"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-github fa-lg fa-fw"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin fa-lg fa-fw"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fas fa-id-card fa-lg fa-fw"></i>
+                                        </a>
+                                    </section>
                                 </HomeLogo>
 
                             </div>
