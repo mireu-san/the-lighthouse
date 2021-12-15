@@ -1,74 +1,17 @@
-.home__profile {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    /* grid-template-areas: 
-        "left1"
-        "photo" */
-}
-
-    @media only screen and (max-width: 550px) {
-        .home__profile {
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            /* grid-template-areas:
-                "left1"
-                "left2"
-                "photo"
-                "left3" */
-        }
-    }
-
-
-
-
 .home__profile__container {
     /* max-width: 75%; */
-    display: grid;
-
     padding: 10%; /* padding is core of layout's location */
+    display: grid;
     margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-content: center;
-
-
-
 }
 
-/* .home__profile__containerLeft {
-    width: 50%;
-
-
-} */
-
-/* .home__profile__containerLeft {
+.home__profile__containerLeft {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-} */
-
-.home__profile__containerLeft__section {
-    width: 50%;
-    border-radius: 20%;
-
-    justify-content: center;
-    align-items: center;
-    border-radius: 20%;
 }
-
-    @media only screen and (min-device-width : 950px){
-        .home__profile__containerLeft__section {
-            width: 50%;
-            border-radius: 20%;
-
-            justify-content: center;
-            align-items: center;
-            border-radius: 20%;
-        }
-    }
-    
-
-
 
 #name {
     color: white;
@@ -99,33 +42,13 @@ a {
     padding-top: 1rem;
 }
 
+/* .home__biography__bottom {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} */
+
+/* .home__profile__containerRight {
 
 
+} */
 
-
-body {
-    font-size: 1.125rem;
-    color: #707070;
-    margin: 0;
-}
-
-img {
-    max-width: 50%;
-}
-
-#photo {
-    border-radius: 1rem;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #707070;
-}
-
-.container {
-    width: 95%;
-    max-width: 980px;
-    margin: 0 auto;
-}
-
-.columns {
-    display: flex;
-}

@@ -9,19 +9,19 @@ export const StyledIndex = styled.h1`
     
 `;
 
-// export const HomePicture = styled.img`
-//     width: 50%;
-//     border-radius: 20%;
+export const HomePicture = styled.img`
+    width: 50%;
+    border-radius: 20%;
 
-//     justify-content: center;
-//     align-items: center;
+    justify-content: center;
+    align-items: center;
 
-//     @media only screen and (min-device-width : 950px){
-//         width: 70%;
-//         border-radius: 20%;
-//         padding-top: 2rem;
-//     }
-// `;
+    @media only screen and (min-device-width : 950px){
+        width: 70%;
+        border-radius: 20%;
+        padding-top: 2rem;
+    }
+`;
 
 export const HomeTitle = styled.h2`
     font-size: 1.5em;
