@@ -1,10 +1,7 @@
-import React, { Component  } from "react";
+import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 
-
 import "./Navbar.css";
-
-
 
 class Navbar extends Component {
     state = { clicked: false };
@@ -16,7 +13,7 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                
+
                 <h1 className="navbar__logo">
                     <a href="/" style={{ textDecoration: "none"}}>JW</a>
                 </h1>
@@ -26,7 +23,7 @@ class Navbar extends Component {
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
 
-                <ul className={this.state.clicked ? "nav__menu active" : "nav__menu "}>
+                <ul className={this.state.clicked ? "nav__menu active" : "nav__menu"}>
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>

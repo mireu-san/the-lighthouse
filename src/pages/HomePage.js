@@ -30,16 +30,16 @@ const HomePage = () => {
                                 </HomeDescriptionProLeft>
                                 <HomeLogo>
                                     <section className="profile__iconArea">
-                                        <a href="#">
+                                        <a href="mailto:starmireu@gmail.com">
                                             <i class="fas fa-envelope fa-lg fa-fw"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://github.com/mireu-san">
                                             <i class="fab fa-github fa-lg fa-fw"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/jongwan-kim-89500a194/">
                                             <i class="fab fa-linkedin fa-lg fa-fw"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://drive.google.com/file/d/1B_1g0ZZugGSRsmXW41Ru2Bz9jkN00mXy/view?usp=sharing">
                                             <i class="fas fa-id-card fa-lg fa-fw"></i>
                                         </a>
                                     </section>
@@ -87,7 +87,7 @@ const HomePage = () => {
                             </div>
                             <div className="home__quote">
                                 <h3>Personal Note</h3>
-                                <ul>내용만 있다면, 그 어떤 무형의 것도 유의 형태로 표현할 수 있습니다.</ul>
+                                <ul>새로운 것은 결국 기존의 불편함을 개선한다는 믿음하에, 이것저것 적용해 보며 성장하는 것이 제 모토입니다.</ul>
                             </div>
                         </HomeDescription>
                     </div>
