@@ -1,8 +1,8 @@
-import React, { Component  } from 'react';
-import { MenuItems } from './MenuItems';
+import React, { Component  } from "react";
+import { MenuItems } from "./MenuItems";
 
 
-import './Navbar.css';
+import "./Navbar.css";
 
 
 
@@ -15,18 +15,18 @@ class Navbar extends Component {
 
     render() {
         return(
-            <nav className='NavbarItems'>
+            <nav className="NavbarItems">
                 
-                <h1 className='navbar__logo'>
-                    <a href="/" style={{ textDecoration: 'none'}}>JW</a>
+                <h1 className="navbar__logo">
+                    <a href="/" style={{ textDecoration: "none"}}>JW</a>
                 </h1>
 
-                <div className='menu__icon' onClick={this.handleClick}>
+                <div className="menu__icon" onClick={this.handleClick}>
                     {/* for the hamburger (bar) menu animation */}
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                    <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
 
-                <ul className={this.state.clicked ? 'nav__menu active' : 'nav__menu '}>
+                <ul className={this.state.clicked ? "nav__menu active" : "nav__menu "}>
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>

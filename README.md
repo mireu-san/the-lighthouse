@@ -29,3 +29,6 @@ https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side
 
 6. How to relocate automatically as size fits? (responsive, 'works' section) 
 - unsolved yet.
+
+7. mobile menu is not functioning!
+- unsolved yet.
