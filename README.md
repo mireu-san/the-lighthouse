@@ -28,7 +28,10 @@ https://www.emailjs.com/docs/examples/reactjs/
 https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend
 
 6. How to relocate automatically as size fits? (responsive, 'works' section) 
-- unsolved yet.
+- solved! use @media query.
 
 7. mobile menu is not functioning!
-- unsolved yet.
+- solved. Just applied new method by making a mobile page only js file. To activate this, use @media query.
+
+Note:
+Always use @media query to apply 'responsive web functionality'.
