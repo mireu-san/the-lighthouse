@@ -17,8 +17,8 @@ const HomePage = () => {
         <div className="home__profile">
             <div className="home__profile__container">
 
-                <div className="home__profile__containerLeft">
-                    <section className="home__profile__containerLeft__section">
+                <div className="home__profile__containerLeft" id="content1">
+                    <section className="home__profile__containerLeft__section" id="content2">
                         <HomePicture img src={profilePhoto} alt="profile" />
                         
                             <div className="wrapper__secondLeft">
@@ -51,16 +51,16 @@ const HomePage = () => {
                 </div>
             
                 <div className="home__profile__containerRight">
-                    <div className="home__container" alt="acecombat" id="home">
+                    <div className="container__right">
 
                     <HomeTitle><h2>Biography</h2></HomeTitle>
                         <HomeDescription>
                             <p>Greetings, this is Jongwan Kim👋</p>
-                            <p>안녕하세요, 제 이름은 김 종완이라고 하며 현재는 프론트엔드 웹개발을 하고 있습니다.</p>
-                            <p>오스트레일리아 퀸즐랜드 공과대학에서 경제학사 과정을 졸업한 뒤, 군 복무를 하면서 취미로만 여겨 왔던 IT지식을 본격적으로 활용해서 여가 시간마다 웹개발을 알아보던 것이 시작이었습니다.</p>  
+                            <p>안녕하세요, 제 이름은 김 종완이라고 하며 프론트엔드 웹개발을 하고 있습니다.</p>
+                            <p>오스트레일리아 퀸즐랜드 공과대학에서 경제학사 과정을 졸업한 뒤, 군 복무를 하면서 취미로만 여겨 왔던 IT지식을 활용해서 소프트웨어, 웹개발을 하는 방법에 대해 알아보던 것이 시작이었습니다.</p>  
                             <p>평소부터 타인의 삶에 이득이 되는 온라인 서비스를 구축 해 보고 싶다고 생각하던 중, 
-                            '미래를 생각한다면 지금이다'는 판단하에 본격적으로 웹개발을 독학하면서 현재에 이르게 되었습니다.</p> 
-                            {/* 제대 이후 코로나 봉쇄가 이어짐과 동시에  */}
+                            '미래를 생각한다면 지금이다'는 판단하에 본격적으로 웹개발을 독학하면서 현재에 이르게 되었습니다.</p>
+                            
                         {/* <div className="home__biography__bottom"> */}
                             <div className="home__interest">
                                 <h3>Interest</h3>
@@ -77,13 +77,12 @@ const HomePage = () => {
                             </div> */}
                             <div className="home__award">
                                 <h3>Education & history</h3>
-                                    <ul><i class="fas fa-code-branch"></i>Self-taught frontend web developer</ul>
+                                    <ul><i class="fas fa-code-branch"></i>Self-taught Frontend Web Development</ul>
                                     <ul>(2020. 03 ~ present)</ul>
-                                    <ul><i class="fas fa-code-branch"></i>Self-taught backend web developer</ul>
+                                    <ul><i class="fas fa-code-branch"></i>Self-taught Backend Web Development</ul>
                                     <ul>(2020. 07 ~ 2021. 02)</ul>
                                     <ul><i class="fas fa-graduation-cap"></i>Ecoonmics, Queensland University of Technology</ul>
                                     <ul>(July, 2017)</ul>
-
                             </div>
                             <div className="home__quote">
                                 <h3>Personal Note</h3>

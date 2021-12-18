@@ -1,16 +1,58 @@
+/* container - initial */
+.home__profile {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+/* in Home, the container that wraps up the left and right two grids only */
 .home__profile__container {
     /* max-width: 75%; */
     padding: 10%; /* padding is core of layout's location */
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    margin-left: 10em;
+    height: 100vh;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 0.5fr;
+    gap: 2em;
     align-content: center;
 }
 
-.home__profile__containerLeft {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
+/* .home__profile__containerLeft {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-content: center;
+    justify-content: center;
+} */
+
+.home__container {
+    font-size: 2rem;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.home__profile__containerRight {
+    font-size: 2rem;
+    grid-auto-rows: minmax(100px, auto);
+    padding-right: 350px;
+}
+
+/* biography title */
+.container__right {
+    font-size: 1.2rem;   
+}
+
+
+p {
+    font-size: 1.2rem;
+}
+
+.home__interest .home__award {
+    font-weight: bold;
 }
 
 #name {
@@ -47,8 +89,35 @@ a {
     margin-bottom: 2rem;
 } */
 
-/* .home__profile__containerRight {
+
+@media only screen and (max-width: 990px) {
+    .home__profile__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+    }
+
+    .home__profile__containerRight {
+        font-size: 2rem;
+        grid-auto-rows: minmax(100px, auto);
+        padding-right: 150px;
+    }
+
+    .home__profile__containerLeft__section {
+        margin-top: 5em;
+        width: 50%;
+        font-size: 1em;
+    }
+
+    #name #name__subtitle {
+        font-size: 8px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 
 
-} */
 
+/* to fix the size of the profile image, go index.styled.js HomePicture */
+  }
+  

@@ -16,10 +16,11 @@ export const HomePicture = styled.img`
     justify-content: center;
     align-items: center;
 
-    @media only screen and (min-device-width : 950px){
-        width: 70%;
-        border-radius: 20%;
-        padding-top: 2rem;
+    @media only screen and (max-device-width : 950px){
+        width: 75%;
+        border-radius: 0%;
+        /* only bottom side applied, error! -currently disabled by giving 0% */
+        padding-bottom: 8em;
     }
 `;
 
@@ -27,6 +28,11 @@ export const HomeTitle = styled.h2`
     font-size: 1.5em;
     text-align: left;
     color: #95A3AB;
+
+    @media only screen and (max-device-width : 990px){
+        font-size: 12px;
+    }
+
 `;
 
 export const HomeTitleLeft = styled.h2`
@@ -48,12 +54,19 @@ export const HomeLogo = styled.i`
     color: silver;
 `
 
-
+/* interest, education & history, personal note*/
 export const HomeDescription = styled.p`
     font-size: 1rem; /* or 1.5 rem if description is short */
     text-align: left;
     color: white;
     margin-top: 12px;
+
+    @media only screen and (max-device-width : 950px){
+        font-size: 12px;
+        text-align: center;
+        color: #95A3AB;
+        
+    }
 `;
 
 // export const HomeFontAwesome = styled.i`
