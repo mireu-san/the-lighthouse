@@ -13,14 +13,14 @@ export const HomePicture = styled.img`
     width: 50%;
     border-radius: 20%;
 
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 
-    @media only screen and (max-device-width : 950px){
+    /* @media only screen and (max-device-width : 950px){
         width: 75%;
         border-radius: 0%;
         /* only bottom side applied, error! -currently disabled by giving 0% */
-    }
+    } */
 `;
 
 export const HomeTitle = styled.h2`
@@ -30,6 +30,8 @@ export const HomeTitle = styled.h2`
 
     @media only screen and (max-device-width : 990px){
         font-size: 12px;
+        text-align: center;
+        color: #95A3AB;
     }
 
 `;
@@ -60,12 +62,12 @@ export const HomeDescription = styled.p`
     color: white;
     margin-top: 12px;
 
-    @media only screen and (max-device-width : 950px){
+    /* @media only screen and (max-device-width : 950px){
         font-size: 12px;
         text-align: center;
         color: #95A3AB;
         
-    }
+    } */
 `;
 
 // export const HomeFontAwesome = styled.i`
