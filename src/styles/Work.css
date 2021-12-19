@@ -70,3 +70,21 @@ img {
   /* each white box  END*/
   
   /* END OF work  */
+
+  @media screen and (max-width: 990px) {
+    .work #work {
+      justify-items: center;
+    }
+    
+    .work__alphaColumn {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.5fr 0.5fr 0.5fr;
+      justify-items: center;
+    }
+    .work__betaColumn {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.5fr 0.5fr;
+      justify-items: center;
+    }
+  }
+  

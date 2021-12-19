@@ -22,7 +22,7 @@ const StyledWork = styled.div`
 
 function Work() {
     return (
-        <StyledWork>
+
             <section className="work" id="work">
                 <h2 className="work__title">Work</h2>
                     <aside className="header__wrapper">
@@ -163,7 +163,7 @@ function Work() {
                     </div> 
                 </div> */}
             </section>
-        </StyledWork>
+
     )
 }
 
