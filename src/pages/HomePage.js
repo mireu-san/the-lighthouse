@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { StyledIndex, HomePicture, HomeTitle, HomeDescription, HomeTitleLeft, HomeDescriptionProLeft, HomeLogo } from '../styles/index.styled'
+import { StyledIndex, HomePicture, HomeTitle, HomeDescription, HomeDescriptionProLeft, HomeLogo } from '../styles/index.styled'
 import profilePhoto from '../images/profile.jpg'
 
 import Contact from './Contact'
@@ -17,14 +17,14 @@ const HomePage = () => {
         <div className="home__profile">
             <div className="home__profile__container">
 
-                <div className="home__profile__containerLeft" id="content1">
+                {/* <div className="home__profile__containerLeft" id="content1"> */}
                     <section className="home__profile__containerLeft__section" id="content2">
                         <HomePicture img src={profilePhoto} alt="profile" />
                         
                             <div className="wrapper__secondLeft">
-                                <HomeTitleLeft>
+                                
                                     <h2 id="name">Jongwan Kim</h2>
-                                </HomeTitleLeft>
+                                
                                 <HomeDescriptionProLeft>
                                 <h3 id="name__subtitle">Frontend Web Developer Enthusiast</h3>
                                 </HomeDescriptionProLeft>
@@ -48,7 +48,7 @@ const HomePage = () => {
                             </div>
 
                     </section>
-                </div>
+                {/* </div> */}
             
                 <div className="home__profile__containerRight">
                     <div className="container__right">
@@ -75,6 +75,7 @@ const HomePage = () => {
                                 <li>건강</li>
                                 <li>Google 에서 추천하는 개발자 뉴스 구독</li>
                             </div> */}
+                       
                             <div className="home__award">
                                 <h3>Education & history</h3>
                                     <ul><i class="fas fa-code-branch"></i>Self-taught Frontend Web Development</ul>
@@ -88,6 +89,7 @@ const HomePage = () => {
                                 <h3>Personal Note</h3>
                                 <ul>새로운 것은 결국 기존의 불편함을 개선한다는 믿음하에, 이것저것 적용해 보며 성장하는 것이 제 모토입니다.</ul>
                             </div>
+                        
                         </HomeDescription>
                     </div>
                 </div>

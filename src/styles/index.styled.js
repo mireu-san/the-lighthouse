@@ -20,7 +20,6 @@ export const HomePicture = styled.img`
         width: 75%;
         border-radius: 0%;
         /* only bottom side applied, error! -currently disabled by giving 0% */
-        padding-bottom: 8em;
     }
 `;
 

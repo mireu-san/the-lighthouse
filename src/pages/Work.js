@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from "styled-components";
+// import styled from "styled-components";
 // import { StyledIndex } from '../styles/index.styled'
 import '../styles/Work.css';
 import '../images/work/';
@@ -13,12 +13,12 @@ import reactproject from '../images/work/reactportfolio.jpg';
 /* end of temporary section */
 
 
-const StyledWork = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-`
+// const StyledWork = styled.div`
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+// `
 
 function Work() {
     return (

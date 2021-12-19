@@ -35,3 +35,10 @@ https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side
 
 Note:
 Always use @media query to apply 'responsive web functionality'.
+https://stackoverflow.com/questions/45536537/centering-in-css-grid
+https://stackoverflow.com/questions/53393906/how-to-keep-content-in-a-container-but-extend-its-background-full-width-in-css
+
+8. Mobile device screen issue ❌ (unsolved)
+- debugging in progress. 
+- this is due to @media's (max-width: 990px) only. Need to refer this URL and fix this compatibility issue whenever possible.
+https://stackoverflow.com/questions/13550541/media-min-width-max-width

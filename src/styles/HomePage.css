@@ -12,7 +12,7 @@
     padding: 10%; /* padding is core of layout's location */
     display: grid;
     margin: 0 auto;
-    margin-left: 10em;
+    margin-left: 5em;
     height: 100vh;
     grid-template-columns: 30% 70%;
     grid-template-rows: 0.5fr;
@@ -20,15 +20,9 @@
     align-content: center;
 }
 
-/* .home__profile__containerLeft {
-    grid-column: 1;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-content: center;
-    justify-content: center;
-} */
+.home__profile__containerLeft__section {
+    justify-items: center;
+}
 
 .home__container {
     font-size: 2rem;
@@ -104,12 +98,12 @@ a {
 
     .home__profile__containerLeft__section {
         margin-top: 5em;
-        width: 50%;
+        width: 75%;
         font-size: 1em;
     }
 
     #name #name__subtitle {
-        font-size: 8px;
+        font-size: 4px;
     }
 
     p {
@@ -121,3 +115,24 @@ a {
 /* to fix the size of the profile image, go index.styled.js HomePicture */
   }
   
+
+    @media screen and (max-width: 990px) {
+        .home__profile {
+            box-sizing: border-box;
+            
+        }
+
+        .home__profile__container {
+            margin-left: 8em;
+        }
+
+        .home__interest .home__award .home__quote {
+            height: 100vh;
+        }
+
+        .home__profile__containerLeft__section {
+            justify-items: center;
+            
+        }
+      
+}
