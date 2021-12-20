@@ -20,13 +20,13 @@ function Contact() {
                     <div className="contact__wrapper">
                         <div className="contact__gridAlpha">
                             <div className="contact__container">
-                                <h2>Phone</h2>
+                                <h2>Phone 📳</h2>
                                     <a href="tel:+8210-8215-8540">
                                         <button 
                                             class="button__contact" 
                                             id="contact__btn__one"
                                         >
-                                        📳:010-8215-8540
+                                        +82 10-8215-8540
                                         </button>
                                     </a>
                             </div>
@@ -34,13 +34,13 @@ function Contact() {
 
 
                         <div className="contact__container">
-                            <h2>Email</h2>
+                            <h2>Email 📧</h2>
                                 <a href="mailto:starmireu@gmail.com">
                                     <button 
                                     class="button__contact" 
                                     id="contact__btn__two"
                                     >
-                                        📧:starmireu@gmail.com
+                                       starmireu@gmail.com
                                     </button>
                                 </a>
                             </div>
@@ -49,27 +49,27 @@ function Contact() {
 
                 <div className="contact__gridAlpha">
                     <div className="contact__container">
-                        <h2>Blog</h2>
+                        <h2>Blog <i class="fas fa-comment"></i></h2>
                             <a href="https://silverlibrary.tistory.com/">
                                 <button 
                                 class="button__contact" 
                                 id="contact__btn__three"
                                 >
-                                <i class="fas fa-comment"></i>
-                                    :Blog
+                                
+                                    Blog
                                 </button>
                             </a>
                     </div>
 
                     <div className="contact__container">
-                            <h2>Github</h2>
+                            <h2>Github <i class="fab fa-github"></i></h2>
                                 <a href="https://github.com/mireu-san">
                                     <button 
                                     class="button__contact" 
                                     id="contact__btn__three"
                                     >
-                                    <i class="fab fa-github"></i>
-                                        :Github
+                                    
+                                        Github
                                     </button>
                                 </a>
                     </div>

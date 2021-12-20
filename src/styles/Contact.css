@@ -132,3 +132,7 @@
     gap: 4px;
     grid-auto-flow: column;
   }
+
+  button {
+    font-weight: bold;
+  }
