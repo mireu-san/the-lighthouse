@@ -39,7 +39,7 @@ const HomePage = () => {
                                         <a href="https://www.linkedin.com/in/jongwan-kim-89500a194/">
                                             <i class="fab fa-linkedin fa-lg fa-fw"></i>
                                         </a>
-                                        <a href="https://drive.google.com/file/d/1B_1g0ZZugGSRsmXW41Ru2Bz9jkN00mXy/view?usp=sharing">
+                                        <a href="https://drive.google.com/file/d/1tu39JaGKjqL7nSaKWC6Wi9qZnkIbxRdn/view?usp=sharing">
                                             <i class="fas fa-id-card fa-lg fa-fw"></i>
                                         </a>
                                     </section>
